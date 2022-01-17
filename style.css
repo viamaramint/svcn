@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  padding: 0;
+  margin: 0;
+}
+.head {
+  width: 100%;
+  /* color: chartreuse; */
+  display: flex;
+  margin-bottom: 5px;
+}
+.head-col1 {
+  width: 20%;
+  height: 40px;
+  background-color: white;
+}
+
+.head-col2 {
+  width: 5%;
+  height: 40px;
+  border-bottom-left-radius: 100%;
+  background-color: brown;
+  height: 40px;
+}
+.head-col3 .red {
+  justify-content: flex-end;
+}
+.head-col3 {
+  width: 75%;
+  background-color: brown;
+  height: 40px;
+}
+.items {
+  position: relative;
+  top: 10px;
+  display: flex;
+  padding-right: 10px;
+  justify-content: flex-end;
+}
+.btn a {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+.red2 {
+  color: white;
+  font-weight: bolder;
+}
+.icon {
+  font-size: large;
+  margin-right: 5px;
+}
+.head1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.logo img {
+  width: 140px;
+}
+.college-name h1 {
+  color: red;
+  /* text-align: center; */
+}
+.college-name {
+  text-align: center;
+  margin-top: 25px;
+}
+.naac img {
+  width: 140px;
+}
+.head2 ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+/* .head2 ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+} */
+.drop {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 10px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.drop:hover {
+  color: red;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 10px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+  color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
